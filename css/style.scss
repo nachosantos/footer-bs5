@@ -1,0 +1,98 @@
+$base: #bbbbbb;
+$blanco: white;
+
+
+.tSlow{
+    transition-duration: 1s;
+    width: 90%;
+    height: 90%;
+
+}
+
+.footer{
+    background-image: url(../images/bg.jpg);
+    background-clip: $blanco;
+    background-blend-mode: darken;
+    color: #bbbbbb;
+    border-radius: 5px;
+    padding: 5% 0 10% 0;
+    width: 100%;
+    h1 {
+        font-weight: bolder;
+        font-size:larger;
+        text-align: center;
+        color: $blanco;
+        padding-bottom: 25px;;
+        a{
+            color: $base;
+            text-decoration:  none;
+            @extend .tSlow;
+        }
+    }
+    .brand{
+        
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: 0 auto;
+        img{
+            width: 100%;
+            height: 100%;
+            }
+        :hover{
+            @extend .tSlow;
+        }
+        
+    }
+    .etiqueta {
+        text-align: center;
+        margin: 30px auto;
+        font-size: small ;
+    }
+    .rrss{
+        text-align: center;
+        width:100%;
+        height: auto;
+        margin: 0 auto;
+        img{
+            width: 10%;
+            height: auto;
+            padding-right: 10px;
+        }
+    }
+    .col {
+        margin: 0 auto;
+        li{
+            padding-bottom: 20px;
+            margin-left:25%;
+            list-style-type: square;
+
+        }
+        a{
+            color: $base;
+            text-decoration: none;
+            font-weight: 700;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            
+            &:hover{
+                color: $blanco;
+                background-size: 100% 2px;
+                
+            
+                //@extend .tSlow
+                &::before{
+                    margin: 10px;
+                }
+            }            
+        }
+        
+        
+    }
+    .email{
+        width: 80%;
+    }
+}
