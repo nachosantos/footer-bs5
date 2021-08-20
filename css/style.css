@@ -57,6 +57,7 @@
   width: 10%;
   height: auto;
   padding-right: 10px;
+  background-color: none;
 }
 
 .footer .col {
@@ -87,8 +88,8 @@
   background-size: 100% 2px;
 }
 
-.footer .col a:hover::before {
-  margin: 10px;
+.footer .col a img {
+  background-image: none;
 }
 
 .footer .email {

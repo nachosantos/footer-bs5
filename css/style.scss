@@ -58,6 +58,7 @@ $blanco: white;
             width: 10%;
             height: auto;
             padding-right: 10px;
+            background-color:none;
         }
     }
     .col {
@@ -81,13 +82,10 @@ $blanco: white;
             &:hover{
                 color: $blanco;
                 background-size: 100% 2px;
-                
-            
-                //@extend .tSlow
-                &::before{
-                    margin: 10px;
-                }
-            }            
+            }    
+            img{
+                background-image: none;
+            }        
         }
         
         
