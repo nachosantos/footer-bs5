@@ -9,7 +9,7 @@ Al estar realizado con **Bootstrap** es responsive y funciona en cualquier naveg
 Si quieres comprobar como queda el proyecto puedes hacerlo en  [Demostración](https://nachosan.com/footer-bs5/)
 
 ## Como usarlo
-Puedes crear un fork y disfrutar y adecuar el contenido
+Puedes clonar/Descargar el contenido, adecuarlo a tu sitio y disfrutar del contenido
 
 
 
