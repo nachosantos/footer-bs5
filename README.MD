@@ -14,5 +14,5 @@ Puedes crear un fork y disfrutar y adecuar el contenido
 
 
 ## Preview
-![](images/preview.png)
+![](/preview.png)
 
