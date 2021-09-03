@@ -28,7 +28,7 @@ html {
   right: 51%;
   bottom: 0;
   background: white;
-  height: 4px;
+  height: 1px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
@@ -112,7 +112,25 @@ html {
   font-weight: 700;
 }
 
-.footer .email {
+.footer .form-control {
   width: 80%;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.footer .btn-link {
+  position: relative;
+  left: 80px;
+  top: 20px;
+}
+
+.footer .btn-link:hover {
+  background-color: #bbbbbb;
+  border-radius: 20px;
+  color: black;
+}
+
+.footer .blockquote-footer {
+  padding-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
