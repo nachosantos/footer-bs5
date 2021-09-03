@@ -11,11 +11,8 @@ Si quieres comprobar como queda el proyecto puedes hacerlo en  [Demostración](h
 ## Como usarlo
 Puedes crear un fork y disfrutar y adecuar el contenido
 
-Markdown has enumation and nested lists.
 
 
 ## Preview
-Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
-
 ![](images/preview.png)
 
